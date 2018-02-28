@@ -9,11 +9,10 @@ use Elasticsearch\ClientBuilder;
 use Elasticsearch\Common\Exceptions\Missing404Exception;
 use Elasticsearch\Common\Exceptions\NoNodesAvailableException;
 use Monolog\Formatter\NormalizerFormatter;
-use PHPUnit_Framework_TestCase;
 use Monolog\Logger;
 use Prophecy\Argument;
 
-class ElasticsearchHandlerTest extends PHPUnit_Framework_TestCase
+class ElasticsearchHandlerTest extends \PHPUnit\Framework\TestCase
 {
     /** @test */
     public function it_should_be_able_to_send_logs_to_an_elasticsearch_server()

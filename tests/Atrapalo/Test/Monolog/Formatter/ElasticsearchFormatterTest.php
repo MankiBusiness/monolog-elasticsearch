@@ -5,9 +5,8 @@ namespace Atrapalo\Test\Monolog\Formatter;
 use Atrapalo\Monolog\Formatter\ElasticsearchFormatter;
 use DateTime;
 use Monolog\Logger;
-use PHPUnit_Framework_TestCase;
 
-class ElasticsearchFormatterTest extends PHPUnit_Framework_TestCase
+class ElasticsearchFormatterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var ElasticsearchFormatter
